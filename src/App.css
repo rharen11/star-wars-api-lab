@@ -25,6 +25,19 @@
   color: white;
 }
 
+button{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background-color: lightgrey;
+  
+}
+
+.starshiplist{
+  color: red;
+  text-decoration: none;
+}
+
 .App-link {
   color: #61dafb;
 }
