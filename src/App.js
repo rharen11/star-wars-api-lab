@@ -9,7 +9,7 @@ function App() {
     <>
     <NavBar />
     <Routes>
-        <Route path="/starship-list" element={<StarshipList />} />
+        <Route path="/" element={<StarshipList />} />
         <Route path="/starship" element={<StarshipDetails />} />
      </Routes>
     </>

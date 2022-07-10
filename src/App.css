@@ -14,28 +14,63 @@
 }
 
 .App-header {
-  background-color: #b3ccff;
+  background-color: black;
   min-height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 30px;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F1083B;
 }
 
-button{
+.card-container{
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  border: solid red;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 5px;
   background-color: lightgrey;
-  
+}
+
+.starship-list{
+  display: flex;
+  justify-content: center;
 }
 
 .starshiplist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 20px 5px 60px;
   color: red;
   text-decoration: none;
+}
+
+.starship-details-title{
+  display: flex;
+  justify-content: center;
+}
+
+.starship-details{
+  display: flex;
+  justify-content: center;
+  border: solid red;
+  background-color: lightgray;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  color: red;
+}
+
+.starship-details-return{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
 }
 
 .App-link {
